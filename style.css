@@ -1,0 +1,188 @@
+/*******FONDO*********/
+
+
+/**********inicio*************/
+body{
+    background-image: radial-gradient(circle at 50% 50%, #6382ee 0, #6382ee 50%, #6382ee 100%);
+    color: black;
+}
+.main{
+    margin: 0 0 1em;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.seccion{
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 1em 0em;
+    padding: 2em;
+
+
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid white;
+
+}
+.seccion .info{
+    font-size: 1.2em;
+    animation: aparecer1 2s ease 1 both;
+
+}
+
+.seccion .ul{
+    margin: 2em 0 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.seccion  .ul .li{
+
+    margin: 0 1em;
+}
+.seccion  .ul  .a{
+    border: 1px solid rgba(218, 211, 211, 0.4);
+    border-radius: 15%;
+    padding: 1em 1em 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+
+}
+.seccion  .ul  .a:hover{
+   border-color: rgb(255, 255, 255);
+   background-color: black;
+   color: white;
+}
+
+.h2{
+    font-size: 5em;
+    color: black;
+}
+
+.titulo-color{
+    color: darkred;
+}
+
+.btn btn-outline-secondary{
+    color: black;
+}
+.btn-inicio{
+    color: black;
+}
+
+/***********CARROUSEL************/
+
+.d-block w-100{
+   width: 800;
+   height: 600;
+}
+
+/****TEXTO*****/
+
+.txt{
+    margin-top: 2em;
+}
+
+
+/*********QUIENES SOMOS**********/
+
+.qs-img{
+    width: 500;
+    height: 400;
+}
+
+.row{
+    margin-top: 1em;
+}
+
+
+/*---------------nuestros-productos-------------*/
+.titulo-productos{
+    font-size: 1.7em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+/*
+.producto1{
+  
+    padding-left: 1em;
+    margin: auto;
+    
+    
+
+}
+*/
+.producto1-img{
+    width: 450px;
+  height: 300px;
+  background: #CCC;
+  overflow: hidden;
+}
+
+.contenedor {
+    display: grid;
+    gap: .5em;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+   
+    
+    
+    
+}
+
+.contenedor div{
+    padding: 1em;
+   
+}
+    
+
+
+.contenedor div:hover{
+    border: 1px solid black;
+    
+}
+.producto1 img{
+    width: auto;
+    height: auto;
+}
+
+/*-----------------------contacto----------------------*/
+.titulo-contacto{
+  
+    font-size: 1.7em;
+    padding: 1em;
+
+}
+.titulo-color{
+    color: darkred;
+}
+
+
+.formulario{
+    
+    padding-left: 1em;
+    width: 50%;
+    float: left;
+   
+
+    
+   
+}
+.formulario-derecha{
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.color-jc{
+    color: darkred;
+}
